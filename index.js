@@ -40,3 +40,28 @@ for (let i = 0; i < numberOfButtons; i++) {
 		}
 	});
 }
+
+// Alternative way to do the same thing
+// let soundMap = {
+//     "w": "./sounds/tom-1.mp3",
+//     "a": "./sounds/tom-2.mp3",
+//     "s": "./sounds/tom-3.mp3",
+//     "d": "./sounds/tom-4.mp3",
+//     "j": "./sounds/snare.mp3",
+//     "k": "./sounds/crash.mp3",
+//     "l": "./sounds/kick-bass.mp3"
+//   };
+
+//   for (let i = 0; i < numberOfButtons; i++) {
+//     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+//       let buttonInnerHTML = this.innerHTML;
+//       let soundFile = soundMap[buttonInnerHTML];
+
+//       if (soundFile) {
+//         let audio = new Audio(soundFile);
+//         audio.play();
+//       } else {
+//         console.log(buttonInnerHTML);
+//       }
+//     });
+//   }
